@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 app.get('/validar/:cpf', (req, res) => {
  var cpf = req.params.cpf;
- res.send(validarCpf(cpf)+'\n');
+ res.send(validarCpf(cpf)+'/n');
 });
  
 app.listen(PORT);
